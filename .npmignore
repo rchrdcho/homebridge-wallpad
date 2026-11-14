@@ -1,6 +1,9 @@
 # Ignore source code
 src
 
+# Compiled tests
+build-test/
+
 # ------------- Defaults ------------- #
 
 # gitHub actions
@@ -11,6 +14,7 @@ eslint.config.js
 
 # typescript
 tsconfig.json
+tsconfig.test.json
 
 # vscode
 .vscode

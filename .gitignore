@@ -1,5 +1,6 @@
 # Ignore compiled code
 dist
+build-test/
 
 # ------------- Defaults ------------- #
 .DS_Store
