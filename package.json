@@ -1,28 +1,32 @@
 {
-  "name": "homebridge-plugin-name",
-  "displayName": "Plugin Name",
+  "name": "homebridge-wallpad",
+  "displayName": "Wallpad Integration for Korean Apartments",
   "type": "module",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": true,
-  "description": "A short description about what your plugin does.",
-  "author": "Your Name",
-  "license": "Apache-2.0",
-  "homepage": "https://github.com/USERNAME/GITHUB_PROJECT_NAME#readme",
+  "description": "Local RS485 bridge that exposes Korean apartment wallpad devices to HomeKit (and Matter) via Homebridge, without the cloud.",
+  "author": "Richard Cho",
+  "license": "AGPL-3.0-only",
+  "homepage": "https://github.com/rchrdcho/homebridge-wallpad#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "https://github.com/rchrdcho/homebridge-wallpad.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/rchrdcho/homebridge-wallpad/issues"
   },
   "keywords": [
     "homebridge-plugin",
-    "supports-hap"
+    "supports-hap",
+    "wallpad",
+    "rs485",
+    "korea",
+    "korean"
   ],
   "main": "dist/index.js",
   "engines": {
     "node": "^22.12.0 || ^24.0.0 || ^26.0.0",
-    "homebridge": "^1.8.0 || ^2.0.0"
+    "homebridge": "^2.0.0"
   },
   "scripts": {
     "build": "rimraf ./dist && tsc",
@@ -35,7 +39,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@types/node": "^26.2.0",
+    "@types/node": "^24.0.0",
     "eslint": "^10.9.0",
     "homebridge": "^2.4.0",
     "nodemon": "^3.1.14",

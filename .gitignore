@@ -123,4 +123,12 @@ dist
 # Webstorm
 .idea
 
+# Test Setup
 /test/hbConfig
+
+# Dev docs
+docs/
+
+# Agents
+CLAUDE.md
+.claude/

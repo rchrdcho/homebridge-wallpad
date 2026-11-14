@@ -134,3 +134,10 @@ web_modules/
 .pnp.*
 
 test/
+
+# Dev docs
+docs/
+
+# Agents
+CLAUDE.md
+.claude/
